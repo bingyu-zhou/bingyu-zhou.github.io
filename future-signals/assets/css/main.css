@@ -1,6 +1,7 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
+	background-image: linear-gradient(lime,blue)
 }
 
 a {
@@ -17,11 +18,11 @@ left:0px;
 }
 
 .nav-item{
-	background-color:lime;
+	background-color:black;
 	display:inline-block;
 	padding:5px;
     border-radius:5px;
-    color: #000;
+    color: white;
     text-decoration:none;
     cursor:pointer;
 }
