@@ -1,6 +1,6 @@
 body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+	font-family: Silom,sans-serif;
+	font-size: 30px;
 	background-image: linear-gradient(lime,blue)
 }
 
@@ -10,7 +10,7 @@ a {
 
 .nav{
 width:100%; 
-background-color:black;
+background-color:transparent;
 padding: 10px;
 position:fixed;
 top:0px;
@@ -18,10 +18,12 @@ left:0px;
 }
 
 .nav-item{
-	background-color:black;
+	background-color:transparent;
 	display:inline-block;
+	border: 3px solid white;
+	color: blue;
 	padding:5px;
-    border-radius:5px;
+    border-radius:10px;
     color: white;
     text-decoration:none;
     cursor:pointer;
@@ -29,25 +31,31 @@ left:0px;
 
 .nav-header{
 	display: inline-block;
-	color: white;
+	color: gray;
 	padding: 5px
 }
 
 .title{
 	width:100%;
+	position: fixed;
+	left:10px;
+	right:10px;
+	top:0px;
 }
 
 .title img {
     width:100%;
+    margin-top: 80px;
+    margin-bottom: 100px;
 }
 
 .research{
 	display:flex;
-	flex-wrap:wrap;
+	margin-top:300px;
 }
 
 .research-item{
-	flex:0 0 33.333%;
+	flex:0 0 40%;
 	padding:10px;
 	transition:1s;
 	cursor:zoom-in;
@@ -58,7 +66,7 @@ left:0px;
 }
 
 .research-item span {
-	color:gray;
+	color:white;
 	font-size: 18px;
 
 }

@@ -20,9 +20,9 @@ $(document).ready(function(){
 
     // Button filters
 
-    $('.btn-car').click(function(){
+    $('.btn-Flashlights').click(function(){
     	hideAll();
-    	$('.car').removeClass('hide');
+    	$('.Flashlights').removeClass('hide');
     });
 
 
