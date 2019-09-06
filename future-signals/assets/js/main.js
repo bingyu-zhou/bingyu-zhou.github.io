@@ -25,16 +25,14 @@ $(document).ready(function(){
     	$('.Flashlights').removeClass('hide');
     });
 
-
-    $('.btn-kinect').click(function(){
+    $('.btn-Notebook').click(function(){
     	hideAll();
-    	$('.kinect').removeClass('hide');
+    	$('.Notebook').removeClass('hide');
     });
 
-
-    $('.btn-Tracking').click(function(){
+    $('.btn-Clock').click(function(){
     	hideAll();
-    	$('.Tracking').removeClass('hide');
+    	$('.Clock').removeClass('hide');
     });
 
     // Button all
@@ -43,4 +41,5 @@ $(document).ready(function(){
     	$('.research-item').removeClass('hide');
     });
 
-});
+
+ });   
