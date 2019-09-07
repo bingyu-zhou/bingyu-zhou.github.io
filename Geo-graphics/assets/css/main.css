@@ -87,6 +87,29 @@ padding: 10px;
 
 }
 
+/*Checker type*/
+.checker-type{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	left: 0;
+	top: 0;
+
+
+}
+
+.checker-text{
+	font-size: 30vw;
+	color: magenta;
+	bottom: 30px solid magenta;
+	padding: 2vw;
+	border-radius: 5vw;
+
+}
+
 /*Could Pattern*/
 
 .cloud-pattern{
@@ -113,15 +136,21 @@ padding: 10px;
 
 }
 
-.chip{
-
-	width:60vw;
-	height:60vh;
-}
-
-.text{
+.chip-text{
 	color:gray;
 	border:1px solid gray;
 	font-size:5vw;
 
 }
+
+.chip{
+
+	width:60vh;
+	height:60vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+    border:1px solid gray;
+    padding:5vh;
+    background-color: black;
+
