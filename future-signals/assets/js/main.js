@@ -37,7 +37,7 @@ $(document).ready(function(){
 
     // Button all
 
-    $(".btn-all").click(function(){
+    $('.btn-all').click(function(){
     	$('.research-item').removeClass('hide');
     });
 
