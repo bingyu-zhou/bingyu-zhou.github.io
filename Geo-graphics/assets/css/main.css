@@ -156,35 +156,6 @@ padding: 10px;
     background-color: black;
 }
 
-
-.grid{
-  display: flex;
-  flex-wrap:wrap;
-}
-.grid-red {
-  width: 50%;
-  height: 50vh;
-  background-color: red;
-}
-
-.grid-blue {
-  width: 50%;
-  height: 50vh;
-  background-color: blue;
-}
-
-.grid-green {
-  width: 50%;
-  height: 50vh;
-  background-color: lime;
-}
-
-.grid-black {
-  width: 50%;
-  height: 100%;
-  background-color: black;
-}
-
 .wifi{
 	display:flex;
 	flex-wrap:wrap;
@@ -223,8 +194,63 @@ padding: 10px;
     width:1000px;
   }
   
+}
+
+
+div {
+	perspective: 500px;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	backface-visibility: visible;
+}
+
+.square {
+	backface-visibility: visible;
+	width: 500px;
+	height: 500px;
+	background: transparent;
+	font-size: 200px;
+	transform: rotateY(45deg);
+	animation: rotateAnimation 1.5s linear infinite;
+
+}
+
+@keyframes rotateAnimation {
+	from {transform: rotateY(0deg);}
+	to {transform: rotateY(360deg);}
+}
+
+
+/*uber*/
+.box {
+  width: 1000px;
+  height:50px;
+  background-image: linear-gradient(yellow,blue);
+  /*   add your animation name and settings here */
+  animation-name:growUG;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+/*   add your starting state and your end state  */
+@keyframes growUG {
+  
+  0% {
+    width:500px;
+  }
+  
+  100% {
+    width:0px;
+  }
+  
   
 }
+
+
 
 
 
