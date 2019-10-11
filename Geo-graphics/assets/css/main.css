@@ -156,46 +156,72 @@ padding: 10px;
     background-color: black;
 }
 
-.wifi{
-	display:flex;
-	flex-wrap:wrap;
-}
-
-.wifi-image img{
+.mailbarcode {
 	width:100vw;
 	height:100vh;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	position:absolute;
-	margin-top: 1px;
-
-}
-.wifi-box {
-  width:100%;
-  height:100vh;
-  background-color: black;
-  /*   add your animation name and settings here */
-  animation-name:growUG;
-  animation-duration:3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-/*   add your starting state and your end state  */
-@keyframes growUG {
+.gray {
+	background-color: gray;
+}
+
+.barcode {
+	width: 200vw;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.barcode img {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.scan {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index:-1;
+}
+
+.scan .barcode {
+	justify-content: flex-start;
+}
+
+.scanbox {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+
+
+/*barcode animation effect*/
+	animation-name: scaner;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+  	animation-direction: alternate;
+}
+
+@keyframes scaner {
   
   0% {
     width:0px;
   }
   
   100% {
-    width:1000px;
+    width:100vw;
   }
   
+  
 }
-
 
 div {
 	perspective: 500px;	
@@ -225,9 +251,11 @@ div {
 
 /*uber*/
 .box {
-  width: 1000px;
+  width: 1500px;
   height:50px;
-  background-image: linear-gradient(yellow,blue);
+  background-image: linear-gradient(to left, lime, blue);
+  justify-content: center;
+  align-items: center;
   /*   add your animation name and settings here */
   animation-name:growUG;
   animation-duration:2s;
@@ -240,11 +268,11 @@ div {
 @keyframes growUG {
   
   0% {
-    width:500px;
+    width:100%;
   }
   
   100% {
-    width:0px;
+    width:0%;
   }
   
   
