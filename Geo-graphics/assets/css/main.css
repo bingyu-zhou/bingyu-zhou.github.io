@@ -41,21 +41,14 @@ padding: 10px;
 	flex:0 0 25%;
 
 }
-/*IP Address*/
-/*  background-color:blue;
-    background-color:magenta;
-	background-color:cyan;
-	background-color:lightslategray;
-	background-color:yellow;*/
-.ip{
-	
+
+.qrcode{
 	background-color:lime;
 	height: 100vh;
 	width: 100vw;
 	display: flex;
 	align-items:center;
 	justify-content: center; 
-
 }
 
 
