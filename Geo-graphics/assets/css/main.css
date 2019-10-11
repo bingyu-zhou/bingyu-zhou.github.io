@@ -114,20 +114,77 @@ padding: 10px;
 /*Could Pattern*/
 
 .cloud-pattern{
+	width:100vw;
+	height: 100vh;
 	display: flex;
 	flex-wrap: wrap;
-	background-image: linear-gradient(white,blue);
+	background-image: linear-gradient(white,white);
 
 }
 
-.cloud-circle{
-	width:25vw;
-	height:33.33vh;
-	background-image: linear-gradient(blue,white);
-	border-radius: 50%;
+.cloud-circle-1{
+	width:16.6vw;
+	height:20vh;
+	background-image: linear-gradient(purple,red);
+	border-radius:20%;
+	display: flex;
+	flex-wrap: wrap;
 
 }
+.cloud-circle-2{
+	width:16.6vw;
+	height:20vh;
+	background-image: linear-gradient(red,orange);
+	border-radius:20%;
+	display: flex;
+	flex-wrap: wrap;
 
+}
+.cloud-circle-3{
+	width:16.6vw;
+	height:20vh;
+	background-image: linear-gradient(orange,yellow);
+	border-radius:20%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.cloud-circle-4{
+	width:16.6vw;
+	height:20vh;
+	background-image: linear-gradient(yellow,green);
+	border-radius:20%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.cloud-circle-5{
+	width:16.6vw;
+	height:20vh;
+	background-image: linear-gradient(green,aqua);
+	border-radius:20%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.cloud-circle-6{
+	width:16.6vw;
+	height:20vh;
+	background-image: linear-gradient(aqua,blue);
+	border-radius:20%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.cloud-circle-7{
+	width:16.6vw;
+	height:20vh;
+	background-image: linear-gradient(blue,purple);
+	border-radius:20%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
 .chip-container{
 	width:100vw;
 	height:100vh;
@@ -250,15 +307,31 @@ div {
 
 
 /*uber*/
+
+body {
+  font-size:200px;
+  font-family:arial;
+}
+.outline-black {
+  color:transparent;
+  -webkit-text-stroke: 2px black;
+  position: fixed;
+  z-index:1;
+  margin-left: 250px;
+}
 .box {
-  width: 1500px;
-  height:50px;
-  background-image: linear-gradient(to left, lime, blue);
-  justify-content: center;
-  align-items: center;
+  width: 100vw;
+  height:500vh;
+  background-image: linear-gradient(to left, white, gray, white, gray, white, gray, white , gray, white, gray, white, gray, white);
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  
+
+
   /*   add your animation name and settings here */
   animation-name:growUG;
-  animation-duration:2s;
+  animation-duration:4s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-direction: alternate;
