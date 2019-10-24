@@ -1,0 +1,70 @@
+body {
+	font-family: myriad pro;
+	font-size: 24px;
+}
+
+a {
+	color:red;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.left {
+	color: black;
+	background-color:lemonchiffon;
+	flex:0 0 50%;
+	height: 100vh;
+	overflow: scroll;
+}
+
+.left-content {
+  padding: 20px;
+  line-height: 35px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5px 10px;
+  border-bottom: 1px solid black;
+  font-size: 30px;
+  font-family: silom;
+}
+
+.left-content-1 {
+  padding: 20px;
+  line-height: 35px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5px 10px;
+  font-family: silom;
+}
+
+.left-content-2 {
+  padding: 20px;
+  line-height: 35px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5px 10px;
+  margin-top: -40px;
+  border-bottom: 1px solid black;
+  font-family: myriad pro;
+}
+.right {
+	color: white;
+	background-color: black;
+	flex:0 0 50%;
+	height: 100vh;
+	overflow: scroll;	
+}
+
+.right-content {
+	padding: 10px;
+}
+
+.right img {
+	width: 100%;
+}
