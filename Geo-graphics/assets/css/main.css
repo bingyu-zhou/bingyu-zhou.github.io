@@ -2,100 +2,366 @@ body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
 	background-color: white;
-	color: white;
+	color: black;
 }
 
 a {
-	color:red;
+	color:lightcyan;
 }
 
 
 /*Index Homepage*/
 
 .index-intro {
-font-size: 18px;
-margin-bottom: 25vh;
-padding: 10px;
+  font-size: 4.8vw;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+  text-align: center;
 }
 
-.index-row{
-	display: flex;
-	flex-wrap: wrap;
-	padding: 10px;
-	margin-bottom: 5px;
-	margin-top: 5px;
-	border-top: 2px solid white;
-	
+.index-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 5px 0;
+  border-top: 2px solid black;
 }
 
-.index-name{
-    flex:0 0 50%;
-
+.index-name {
+  flex: 0 0 25%;
 }
 
-.index-layer{
-    flex:0 0 25%;
+.index-layer {
+  flex: 0 0 25%;
 }
 
-.index-tag{
-	flex:0 0 25%;
-
+.index-tag {
+  flex: 0 0 50%;
 }
 
-.qrcode{
-	background-color:lime;
-	height: 100vh;
-	width: 100vw;
-	display: flex;
-	align-items:center;
-	justify-content: center; 
+/*uber-1*/
+.uber-1{
+width: 100vw;
+height: 100vh;
+background-color:lightcyan; 
 }
 
-
-/*Checkers*/
-
-.checkers{
-	display:flex;
-	flex-wrap: wrap;
-
+.uber--1 {
+font-size: 200px;
+position:fixed;
+animation: uber 4s infinite linear alternate;
 }
 
-.checkers-white{
-	width:50vw;
-	height:50vw;
-	background-color:white;
+@keyframes uber {
+  
+  0% {
+  top:40%;
+  left:150%;
+  }
 
+  100% {
+  top:40%;
+  left:-50%;
+  }
 }
 
-.checkers-black{
-    width:50vw;
-	height:50vw;
-	background-color:blue;
+/*uber-2*/
+.uber-2 img {
+width: 5%;
+margin-top:10%;
+margin-left: 20%;
 
-}
 
-/*Checker type*/
-.checker-type{
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: fixed;
-	left: 0;
-	top: 0;
-
+  /*   add your animation name and settings here */
+animation-name:spinUG;
+animation-duration:10s;
+transform: rotateY(45deg);
+animation: rotateAnimation 1.5s linear infinite;
 
 }
 
-.checker-text{
-	font-size: 30vw;
-	color: magenta;
-	bottom: 30px solid magenta;
-	padding: 2vw;
-	border-radius: 5vw;
+.uber--2 img {
+width: 10%;
+margin-top:5%;
+margin-left: 80%;
+
+
+  /*   add your animation name and settings here */
+animation-name:spinUG;
+animation-duration:10s;
+transform: rotateY(45deg);
+animation: rotateAnimation 1.5s linear infinite;
 
 }
+
+/*   add your starting state and your end state  */
+
+
+@keyframes rotateAnimation {
+  from {transform: rotateY(0deg);}
+  to {transform: rotateY(360deg);}
+}
+
+.uber---2 img {
+width: 10%;
+margin-top:10%;
+margin-left: 5%;
+
+
+  /*   add your animation name and settings here */
+animation-name:spinUG;
+animation-duration:10s;
+transform: rotateY(45deg);
+animation: rotateAnimation 1.5s linear infinite;
+
+}
+
+/*   add your starting state and your end state  */
+
+
+@keyframes rotateAnimation {
+  from {transform: rotateY(0deg);}
+  to {transform: rotateY(360deg);}
+}
+
+.uber----2 img {
+width: 5%;
+margin-top:-100%;
+margin-left: 0%;
+
+
+  /*   add your animation name and settings here */
+animation-name:spinUG;
+animation-duration:10s;
+transform: rotateY(45deg);
+animation: rotateAnimation 1.5s linear infinite;
+
+}
+
+/*   add your starting state and your end state  */
+
+
+@keyframes rotateAnimation {
+  from {transform: rotateY(0deg);}
+  to {transform: rotateY(360deg);}
+}
+
+.uber-----2 img {
+width: 5%;
+margin-top:-100%;
+margin-left: 80%;
+
+
+  /*   add your animation name and settings here */
+animation-name:spinUG;
+animation-duration:10s;
+transform: rotateY(45deg);
+animation: rotateAnimation 1.5s linear infinite;
+
+}
+
+/*   add your starting state and your end state  */
+
+
+@keyframes rotateAnimation {
+  from {transform: rotateY(0deg);}
+  to {transform: rotateY(360deg);}
+}
+/*myki-1*/
+.myki-1 img {
+width: 30%;
+margin-top:0%;
+margin-left: 0%;
+position:fixed;
+animation: myki 2s infinite linear alternate;
+}
+
+@keyframes myki {
+  
+  0% {
+  top:-50%;
+  }
+
+  100% {
+  top:70%;
+  }
+}
+
+.myki--1 img {
+width: 30%;
+margin-top:0%;
+margin-left: 23%;
+position:fixed;
+animation: myki 1.5s infinite linear alternate;
+}
+
+@keyframes myki {
+  
+  0% {
+  top:0%;
+  }
+
+  100% {
+  top:100%;
+  }
+
+}
+
+.myki---1 img {
+width: 30%;
+margin-top:10%;
+margin-left: 46%;
+position:fixed;
+animation: myki 2.5s infinite linear alternate;
+}
+
+@keyframes myki {
+  
+  0% {
+  top:30%;
+  }
+
+  100% {
+  top:90%;
+  }
+
+}
+
+.myki----1 img {
+width: 30%;
+margin-top:0%;
+margin-left: 69%;
+position:fixed;
+animation: myki 1s infinite linear alternate;
+}
+
+@keyframes myki {
+  
+  0% {
+  top:-10%;
+  }
+
+  100% {
+  top:80%;
+  }
+}
+
+/*myki-2*/
+.cloud-dots {
+  font-size: 20px
+  flex: 0 0 20%;
+  color: white;
+  background-image: linear-gradient(black,white,black,white,black);
+  width: 100vw;
+  height: 20vh;
+  border-radius: 0%;
+  animation: bgpos 1s infinite linear;
+}
+
+@keyframes bgpos {
+  0% {
+  background-position:0 0px;
+  }
+
+  100% {
+  background-position:0 300px;
+  }
+}
+
+
+
+.all-blocks {
+  display: flex;
+}
+
+.all-blocks div {
+  border-radius: 200px;
+  animation:blur 2s infinite alternate;
+  width: 100vw;
+  height: 100vh;
+}
+
+@keyframes blur {
+  0% {
+      filter:blur(50px);
+  }
+  
+  100%{
+      filter:blur(0px);
+  }
+}
+
+
+.ball {
+  width:200px;
+  height:200px;  
+  border-radius:50%;
+  position:fixed;
+  top:10%;
+  left:20%;
+  animation: ball 4s infinite linear alternate;
+}
+
+@keyframes ball {
+  
+  0% {
+  top:20%;
+  left:0%;
+  }
+  
+  33% {
+  top:0%;
+  left:80%;
+  }
+  
+  66% {
+  top:70%;
+  left:55%;
+  }
+
+  100% {
+  top:20%;
+  left:0%;
+  }
+  
+}
+
+.background {
+	background-color: lime;
+}
+
+.mass {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  align-content:space-around;
+  height:100vh;
+  width:100vw;
+}
+
+.box {
+  background-color: lemonchiffon;
+  width:20%;
+  height:25%;
+}
+
+
+.box-1 {
+  background-color: peachpuff;
+  width:20%;
+  height:25%;
+  backface-visibility: visible;
+  transform: rotateY(45deg);
+  animation: rotateAnimation 3s linear infinite;
+
+}
+
+@keyframes rotateAnimation {
+	from {transform: rotateY(360deg);}
+	to {transform: rotateY(0deg);}
+}
+
 
 /*Could Pattern*/
 
@@ -117,6 +383,7 @@ padding: 10px;
 	flex-wrap: wrap;
 
 }
+
 .cloud-circle-2{
 	width:16.6vw;
 	height:20vh;
@@ -126,6 +393,7 @@ padding: 10px;
 	flex-wrap: wrap;
 
 }
+
 .cloud-circle-3{
 	width:16.6vw;
 	height:20vh;
@@ -135,6 +403,7 @@ padding: 10px;
 	flex-wrap: wrap;
 
 }
+
 .cloud-circle-4{
 	width:16.6vw;
 	height:20vh;
@@ -171,6 +440,88 @@ padding: 10px;
 	flex-wrap: wrap;
 
 }
+
+
+.rectangle-1{
+	width:12vw;
+	height:20vh;
+	background-image: linear-gradient(red,red);
+	border-radius:0%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.rectangle-2{
+	width:12vw;
+	height:20vh;
+	background-image: linear-gradient(black,black);
+	border-radius:0%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.rectangle-3{
+	width:12vw;
+	height:20vh;
+	background-image: linear-gradient(aquamarine,aquamarine);
+	border-radius:0%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.rectangle-4{
+	width:12vw;
+	height:20vh;
+	background-image: linear-gradient(deeppink, deeppink);
+	border-radius:0%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.rectangle-5{
+	width:12vw;
+	height:20vh;
+	background-image: linear-gradient(yellow,yellow);
+	border-radius:0%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.rectangle-6{
+	width:12vw;
+	height:20vh;
+	background-image: linear-gradient(blueviolet,blueviolet);
+	border-radius:0%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.rectangle-7{
+	width:12vw;
+	height:20vh;
+	background-image: linear-gradient(deepskyblue,deepskyblue);
+	border-radius:0%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.rectangle-8{
+	width:12vw;
+	height:20vh;
+	background-image: linear-gradient(darkorange,darkorange);
+	border-radius:0%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
 .chip-container{
 	width:100vw;
 	height:100vh;
@@ -266,12 +617,11 @@ padding: 10px;
   
 }
 
-div {
+.blocks-rgb {
 	perspective: 500px;	
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
 	backface-visibility: visible;
 }
 
@@ -293,19 +643,26 @@ div {
 
 
 /*uber*/
-
-body {
-  font-size:200px;
-  font-family:arial;
+.outline-black {
+  font-size: 200px;
+  color:transparent;
+  -webkit-text-stroke: 2px black;
+  position: fixed;
+  z-index:1;
+  margin-left: 210px;
+  margin-top: 220px;
+  display: flex;
+  flex-wrap: wrap;
 }
+
 .outline-black {
   color:transparent;
   -webkit-text-stroke: 2px black;
   position: fixed;
   z-index:1;
-  margin-left: 250px;
+  margin-left: 200px;
 }
-.box {
+.bw {
   width: 100vw;
   height:500vh;
   background-image: linear-gradient(to left, white, gray, white, gray, white, gray, white , gray, white, gray, white, gray, white);
@@ -316,7 +673,7 @@ body {
 
 
   /*   add your animation name and settings here */
-  animation-name:growUG;
+  animation-name: GRID ;
   animation-duration:4s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -324,7 +681,7 @@ body {
 }
 
 /*   add your starting state and your end state  */
-@keyframes growUG {
+@keyframes GRID {
   
   0% {
     width:100%;
@@ -336,6 +693,157 @@ body {
   
   
 }
+
+.cloud-pattern{
+	width:100vw;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	background-image: linear-gradient(black,black)
+}
+
+.wifi-3 {
+  width: 100px;
+  height:180px;
+  margin-left:90px;
+  margin-top: 350px;
+  background-color: white;
+  border-radius:0%;
+  opacity: 1;
+
+/*   add your animation name and settings here */
+  animation-name:growUG;
+  animation-duration:5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+/*   add your starting state and your end state  */
+@keyframes growUG {
+  
+  0% {
+    opacity:1;
+  }
+  
+  50% {
+    opacity:0.1;
+  }
+
+  100% {
+    opacity:1;
+  }
+  
+}
+
+
+.wifi-4 {
+  width: 100px;
+  height:250px;
+  margin-left:100px;
+  margin-top: 280px;
+  background-color: white;
+  border-radius:0%;
+ opacity: 1;
+
+/*   add your animation name and settings here */
+  animation-name:growUG;
+  animation-duration:5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+/*   add your starting state and your end state  */
+@keyframes growUG {
+  
+  0% {
+    opacity:1;
+  }
+  
+  50% {
+    opacity:0.1;
+  }
+
+  100% {
+    opacity:1;
+  }
+  
+}
+
+.wifi-5 {
+  width: 100px;
+  height:320px;
+  margin-left:100px;
+  margin-top: 210px;
+  background-color: white;
+  border-radius:0%;
+  opacity: 1;
+
+/*   add your animation name and settings here */
+  animation-name:growUG;
+  animation-duration:5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+/*   add your starting state and your end state  */
+@keyframes growUG {
+  
+  0% {
+    opacity:1;
+  }
+  
+  50% {
+    opacity:0.1;
+  }
+
+  100% {
+    opacity:1;
+  }
+  
+}
+
+.wifi-6 {
+  width: 100px;
+  height:390px;
+  margin-left:110px;
+  margin-top: 140px;
+  background-color: white;
+  border-radius:0%;
+  opacity: 1;
+
+    /*   add your animation name and settings here */
+  animation-name:growUG;
+  animation-duration:5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+/*   add your starting state and your end state  */
+@keyframes growUG {
+  
+  0% {
+    opacity:1;
+  }
+  
+  50% {
+    opacity:0.1;
+  }
+
+  100% {
+    opacity:1;
+  }
+  
+}
+
+
+
+
+
+
 
 
 
