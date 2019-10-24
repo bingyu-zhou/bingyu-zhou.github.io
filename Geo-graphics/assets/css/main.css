@@ -625,15 +625,18 @@ animation: myki 1s infinite linear alternate;
 	backface-visibility: visible;
 }
 
+/*wifi-1*/
 .square {
 	backface-visibility: visible;
 	width: 500px;
 	height: 500px;
+  text-align: center;
+  margin-top: 250px;
+  margin-left: 200px;
 	background: transparent;
 	font-size: 200px;
 	transform: rotateY(45deg);
 	animation: rotateAnimation 1.5s linear infinite;
-
 }
 
 @keyframes rotateAnimation {
