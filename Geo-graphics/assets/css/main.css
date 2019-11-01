@@ -6,13 +6,20 @@ body {
 }
 
 a {
-	color:lightcyan;
+	color:blue;
 }
 
 
 /*Index Homepage*/
+.background-1{
+  width:100vw;
+  height:100vh;
+  background-color:black;
+}
 
 .index-intro {
+  color:white;
+  background-color: black;
   font-size: 4.8vw;
   margin-bottom: 5vh;
   margin-top: 5vh;
@@ -20,23 +27,27 @@ a {
 }
 
 .index-row {
+  color:white;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding: 10px;
   margin: 5px 0;
-  border-top: 2px solid black;
+  border-top: 2px solid white;
 }
 
 .index-name {
+  color:white;
   flex: 0 0 25%;
 }
 
 .index-layer {
+  color:white;
   flex: 0 0 25%;
 }
 
 .index-tag {
+  color:white;
   flex: 0 0 50%;
 }
 
@@ -169,7 +180,7 @@ animation: rotateAnimation 1.5s linear infinite;
   to {transform: rotateY(360deg);}
 
 /*uber-3*/
-
+  }
 /*myki-1*/
 .myki-1 img {
 width: 30%;

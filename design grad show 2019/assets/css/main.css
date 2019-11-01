@@ -1,10 +1,12 @@
 body {
 	font-family: myriad pro;
 	font-size: 24px;
+	background: black;
 }
 
 a {
-	color:red;
+	color: white;
+	text-decoration: none;
 }
 
 .grid {
@@ -21,6 +23,7 @@ a {
 }
 
 .left-content {
+  
   padding: 20px;
   line-height: 35px;
   display: flex;
@@ -33,6 +36,7 @@ a {
 }
 
 .left-content-1 {
+  cursor: pointer;
   padding: 20px;
   line-height: 35px;
   display: flex;
@@ -45,24 +49,67 @@ a {
 .left-content-2 {
   padding: 20px;
   line-height: 35px;
+  font-size: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 5px 10px;
   margin-top: -40px;
   border-bottom: 1px solid black;
-  font-family: myriad pro;
+  font-family: silom;
 }
 .right {
 	color: white;
 	background-color: black;
 	flex:0 0 50%;
 	height: 100vh;
-	overflow: scroll;	
+	overflow: scroll;
+	display: none;	
+}
+
+.active {
+	display: block;
 }
 
 .right-content {
 	padding: 10px;
+}
+
+.right-content-1 {
+	padding: 5px;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px 10px;
+	font-family: silom;
+	font-size: 30px;
+	color:orange;
+	line-height: 35px;
+}
+
+.right-content--1 {
+	padding: 5px;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px 10px;
+	font-family: silom;
+	color:yellow;
+	font-size: 20px;
+	line-height: 20px;
+	margin-top: -10px;
+}
+
+.right-content---1 {
+	padding: 5px;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px 10px;
+	font-family: silom;
+	font-size: 18px;
+	line-height: 22px;
+	margin-top: 20px;
 }
 
 .right img {
