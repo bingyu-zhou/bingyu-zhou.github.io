@@ -1,12 +1,11 @@
 body {
-	font-family: myriad pro;
+	font-family: arial;
 	font-size: 24px;
 	background: black;
 }
 
 a {
-	color: white;
-	text-decoration: none;
+	color: grey;
 }
 
 .grid {
@@ -15,8 +14,8 @@ a {
 }
 
 .left {
-	color: black;
-	background-color:lemonchiffon;
+	color: grey;
+	background-color:black;
 	flex:0 0 50%;
 	height: 100vh;
 	overflow: scroll;
@@ -25,46 +24,75 @@ a {
 .left-content {
   
   padding: 20px;
-  line-height: 35px;
+  line-height: 45px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 5px 10px;
-  border-bottom: 1px solid black;
-  font-size: 30px;
-  font-family: silom;
+  border-bottom: 2px solid grey;
+  font-size: 35px;
+  font-family: arial;
+}
+
+.btn-home {
+	cursor: pointer;
+}
+
+.btn-hwc {
+	cursor: pointer;
+}
+
+.btn-mmxix {
+	cursor: pointer;
+}
+
+.btn-mada{
+	cursor: pointer;
+}
+
+.btn-msdx{
+	cursor: pointer;
+}
+
+.btn-gradx{
+	cursor: pointer;
+}
+
+.btn-gradshow{
+	cursor: pointer;
 }
 
 .left-content-1 {
   cursor: pointer;
   padding: 20px;
-  line-height: 35px;
+  line-height: 40px;
+  font-size: 35px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 5px 10px;
-  font-family: silom;
+  font-family: arial;
 }
 
 .left-content-2 {
   padding: 20px;
-  line-height: 35px;
+  line-height: 25px;
   font-size: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 5px 10px;
   margin-top: -40px;
-  border-bottom: 1px solid black;
-  font-family: silom;
+  border-bottom: 2px solid grey;
+  font-family: arial;
 }
 .right {
-	color: white;
 	background-color: black;
 	flex:0 0 50%;
 	height: 100vh;
 	overflow: scroll;
-	display: none;	
+	display: none;
+	border-left: 3px solid grey;
 }
 
 .active {
@@ -76,37 +104,38 @@ a {
 }
 
 .right-content-1 {
-	padding: 5px;
+	padding: 15px;
 	display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 5px 10px;
-	font-family: silom;
-	font-size: 30px;
-	color:orange;
+    margin-top: -20px;
+	font-family: arial;
+	font-size: 40px;
+	color:grey;
 	line-height: 35px;
 }
 
 .right-content--1 {
-	padding: 5px;
+	padding: 15px;
 	display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 5px 10px;
-	font-family: silom;
-	color:yellow;
+	font-family: arial;
+	color:grey;
 	font-size: 20px;
 	line-height: 20px;
-	margin-top: -10px;
+	margin-top: -25px;
 }
 
 .right-content---1 {
-	padding: 5px;
+	padding: 15px;
 	display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 5px 10px;
-	font-family: silom;
+    color:grey;
 	font-size: 18px;
 	line-height: 22px;
 	margin-top: 20px;
@@ -114,4 +143,7 @@ a {
 
 .right img {
 	width: 100%;
+	padding: 15px;
+	border-radius: 35px;
+	filter: grayscale();
 }

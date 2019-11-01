@@ -1,6 +1,11 @@
 $( document ).ready(function() {
     console.log( "im ready!" );
 
+    $('.btn-home').click(function() {
+        $('.right').removeClass('active');
+        $('.panel-homepage').addClass('active');
+    });    
+
     $('.btn-hwc').click(function() {
     	$('.right').removeClass('active');
     	$('.panel-hwc').addClass('active');
