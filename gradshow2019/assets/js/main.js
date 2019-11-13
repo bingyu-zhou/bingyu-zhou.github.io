@@ -16,6 +16,11 @@ $( document ).ready(function() {
     	$('.panel-mmxix').addClass('active');
     });
 
+    $('.btn-freeform').click(function() {
+        $('.right').removeClass('active');
+        $('.panel-freeform').addClass('active');
+    });
+
     $('.btn-mada').click(function() {
     	$('.right').removeClass('active');
     	$('.panel-mada').addClass('active');
