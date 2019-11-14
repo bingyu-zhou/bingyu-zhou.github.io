@@ -1,24 +1,25 @@
+
 body {
-	font-family: arial;
-	font-size: 24px;
-	background: black;
+  font-family: arial;
+  font-size: 24px;
+  background: black;
 }
 
 a {
-	color: grey;
+  color: grey;
 }
 
 .grid {
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .left {
-	color: grey;
-	background-color:black;
-	flex:0 0 50%;
-	height: 100vh;
-	overflow: scroll;
+  color: grey;
+  background-color:black;
+  flex:0 0 50%;
+  height: 100vh;
+  overflow: scroll;
 }
 
 .left-content {
@@ -35,35 +36,35 @@ a {
 }
 
 .btn-home {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .btn-hwc {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .btn-mmxix {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .btn-freeform {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .btn-mada{
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .btn-msdx{
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .btn-gradx{
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .btn-gradshow{
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .left-content-1 {
@@ -91,63 +92,63 @@ a {
   font-family: arial;
 }
 .right {
-	background-color: black;
-	flex:0 0 50%;
-	height: 100vh;
-	overflow: scroll;
-	display: none;
-	border-left: 3px solid grey;
+  background-color: black;
+  flex:0 0 50%;
+  height: 100vh;
+  overflow: scroll;
+  display: none;
+  border-left: 3px solid grey;
 }
 
 .active {
-	display: block;
+  display: block;
 }
 
 .right-content {
-	padding: 10px;
+  padding: 10px;
 }
 
 .right-content-1 {
-	padding: 15px;
-	display: flex;
+  padding: 15px;
+  display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 5px 10px;
     margin-top: -20px;
-	font-family: arial;
-	font-size: 40px;
-	color:grey;
-	line-height: 45px;
+  font-family: arial;
+  font-size: 40px;
+  color:grey;
+  line-height: 45px;
 }
 
 .right-content--1 {
-	padding: 15px;
-	display: flex;
+  padding: 15px;
+  display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 5px 10px;
-	font-family: arial;
-	color:grey;
-	font-size: 20px;
-	line-height: 20px;
-	margin-top: -25px;
+  font-family: arial;
+  color:grey;
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: -25px;
 }
 
 .right-content---1 {
-	padding: 15px;
-	display: flex;
+  padding: 15px;
+  display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 5px 10px;
     color:grey;
-	font-size: 18px;
-	line-height: 22px;
-	margin-top: 20px;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 20px;
 }
 
 .right img {
-	width: 100%;
-	padding: 15px;
-	border-radius: 35px;
-	filter: grayscale();
+  width: 100%;
+  padding: 15px;
+  border-radius: 35px;
+  filter: grayscale();
 }

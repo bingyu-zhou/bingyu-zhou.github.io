@@ -1,12 +1,13 @@
+
 body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
-	background-color: white;
-	color: black;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 32px;
+  background-color: white;
+  color: black;
 }
 
 a {
-	color:blue;
+  color:blue;
 }
 
 
@@ -53,6 +54,173 @@ a {
   flex: 0 0 30%;
 }
 
+/*trafficlight-2*/
+.trafficlight-2{
+  font-size:150px;
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.c1 {
+  color:red;
+}
+.c2 {
+  color:yellow;
+}
+.c3 {
+  color:lime;
+}
+
+/*qrcode-3*/
+.qrcode-3 {
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.black {
+  flex:0 0 50%;
+  height:50vh;
+  background-image:linear-gradient(black,transparent,black,transparent,black);
+}
+
+.white {
+  flex:0 0 50%;
+  height:50vh;
+  background-image:linear-gradient(transparent,black,transparent,black,transparent);
+}
+
+/* Checkers Type*/
+
+.scan {
+  width:100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top:0;
+  left:0;
+}
+
+.scan-1 {
+  font-size:10vw;
+  color:lime;
+  font-family:helvetica,arial;
+  padding: 5vw;
+  letter-spacing:5vw;
+}
+
+/*trafficlight-1*/
+.trafficlight-1{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.light-1{
+  display: flex;
+  flex-wrap:wrap;
+  width: 50px;
+  height:50px;
+  border-radius:50%;
+  background-color: black;
+  margin-left: 40vw;
+}
+.light-2{
+  display: flex;
+  flex-wrap:wrap;
+  width: 150px;
+  height:150px;
+  border-radius:50%;
+  background-color: red;
+  margin-left: 42vw;
+  margin-top: 50px;
+  box-shadow: 0px 0px 60px 15px red;
+}
+
+.light-3{
+  display: flex;
+  flex-wrap:wrap;
+  width: 150px;
+  height:150px;
+  border-radius:50%;
+  background-color: yellow;
+  margin-left: 42vw;
+  margin-top: 50px;
+  box-shadow: 0px 0px 50px 10px yellow;
+}
+
+.light-4{
+  display: flex;
+  flex-wrap:wrap;
+  width: 150px;
+  height:150px;
+  border-radius:50%;
+  background-color: lime;
+  margin-left: 42vw;
+  margin-top: 50px;
+  box-shadow: 0px 0px 50px 10px lime;
+}
+
+/*uber-3*/
+.eat-1 {
+  width: 150px;
+  height:30px;
+  margin-left:100px;
+  margin-top: 350px;
+  background-color: lime; 
+}
+
+.eat-2 {
+  width: 150px;
+  height:30px;
+  margin-left:310px;
+  margin-top: -30px;
+  background-color: lime;
+  border-radius:0%;
+}
+
+.eat-3 {
+  width: 150px;
+  height:30px;
+  margin-left:520px;
+  margin-top: -30px;
+  background-color: lime;
+  border-radius:0%;
+}
+
+.eat-4 {
+  width: 150px;
+  height:30px;
+  margin-left:730px;
+  margin-top: -30px;
+  background-image: linear-gradient(90deg,lime,white);
+  animation-name:eat;
+  animation-duration:1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+/*   add your starting state and your end state  */
+@keyframes eat {
+  
+  0% {
+    width:0px;
+  }
+  
+  100% {
+    width:150px;
+  }
+  
+  
+}
+
 /*uber-1*/
 .uber-1{
 width: 100vw;
@@ -82,7 +250,7 @@ animation: uber 4s infinite linear alternate;
 /*uber-2*/
 .uber-2 img {
 width: 5%;
-margin-top:10%;
+margin-top:5%;
 margin-left: 20%;
 
 
@@ -97,7 +265,7 @@ animation: rotateAnimation 1.5s linear infinite;
 .uber--2 img {
 width: 10%;
 margin-top:5%;
-margin-left: 80%;
+margin-left: 85%;
 
 
   /*   add your animation name and settings here */
@@ -118,8 +286,8 @@ animation: rotateAnimation 1.5s linear infinite;
 
 .uber---2 img {
 width: 10%;
-margin-top:10%;
-margin-left: 40%;
+margin-top:5%;
+margin-left: 45%;
 
 
   /*   add your animation name and settings here */
@@ -140,8 +308,8 @@ animation: rotateAnimation 1.5s linear infinite;
 
 .uber----2 img {
 width: 5%;
-margin-top:-100%;
-margin-left: 0%;
+margin-top:10%;
+margin-left: 5%;
 
 
   /*   add your animation name and settings here */
@@ -162,8 +330,8 @@ animation: rotateAnimation 1.5s linear infinite;
 
 .uber-----2 img {
 width: 5%;
-margin-top:-100%;
-margin-left: 80%;
+margin-top:10%;
+margin-left: 70%;
 
 
   /*   add your animation name and settings here */
@@ -290,7 +458,7 @@ animation: myki 1s infinite linear alternate;
   height:100vh;
   display: inline-block;
   animation-name:colour;
-  animation-duration:2s;
+  animation-duration:1.5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-direction: alternate;
@@ -367,7 +535,7 @@ animation: myki 1s infinite linear alternate;
 }
 
 .background {
-	background-color: lime;
+  background-color: lime;
   width: 100vw;
   height: 100vh;
 }
@@ -399,301 +567,263 @@ animation: myki 1s infinite linear alternate;
 }
 
 @keyframes rotateAnimation {
-	from {transform: rotateY(360deg);}
-	to {transform: rotateY(0deg);}
+  from {transform: rotateY(360deg);}
+  to {transform: rotateY(0deg);}
 }
 
 
 /*Could Pattern*/
 
 .cloud-pattern{
-	width:100vw;
-	height: 100vh;
-	display: flex;
-	flex-wrap: wrap;
-	background-image: linear-gradient(white,white);
+  width:100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: linear-gradient(white,white);
 
 }
 
 .cloud-circle-1{
-	width:16.6vw;
-	height:20vh;
+  width:16.6vw;
+  height:20vh;
   border-radius:20%;
-	background-image: linear-gradient(purple,red);
-	display: flex;
-	flex-wrap: wrap;
+  background-image: linear-gradient(purple,red);
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
 .cloud-circle-2{
-	width:16.6vw;
-	height:20vh;
+  width:16.6vw;
+  height:20vh;
   border-radius:20%;
-	background-image: linear-gradient(red,orange);
-	display: flex;
-	flex-wrap: wrap;
+  background-image: linear-gradient(red,orange);
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
 .cloud-circle-3{
-	width:16.6vw;
-	height:20vh;
+  width:16.6vw;
+  height:20vh;
   border-radius:20%;
-	background-image: linear-gradient(orange,yellow);
-	display: flex;
-	flex-wrap: wrap;
+  background-image: linear-gradient(orange,yellow);
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
 .cloud-circle-4{
-	width:16.6vw;
-	height:20vh;
+  width:16.6vw;
+  height:20vh;
   border-radius:20%;
-	background-image: linear-gradient(yellow,green);
-	display: flex;
-	flex-wrap: wrap;
+  background-image: linear-gradient(yellow,green);
+  display: flex;
+  flex-wrap: wrap;
 
 }
 .cloud-circle-5{
-	width:16.6vw;
-	height:20vh;
+  width:16.6vw;
+  height:20vh;
   border-radius:20%;
-	background-image: linear-gradient(green,aqua);
-	display: flex;
-	flex-wrap: wrap;
+  background-image: linear-gradient(green,aqua);
+  display: flex;
+  flex-wrap: wrap;
 
 }
 .cloud-circle-6{
-	width:16.6vw;
-	height:20vh;
+  width:16.6vw;
+  height:20vh;
   border-radius:20%;
-	background-image: linear-gradient(aqua,blue);
-	display: flex;
-	flex-wrap: wrap;
+  background-image: linear-gradient(aqua,blue);
+  display: flex;
+  flex-wrap: wrap;
 
 }
 .cloud-circle-7{
-	width:16.6vw;
-	height:20vh;
+  width:16.6vw;
+  height:20vh;
   border-radius:20%;
-	background-image: linear-gradient(blue,purple);
-	display: flex;
-	flex-wrap: wrap;
+  background-image: linear-gradient(blue,purple);
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
 
 .rectangle-1{
-	width:12vw;
-	height:20vh;
-	background-image: linear-gradient(red,red);
-	border-radius:0%;
-	display: flex;
-	flex-wrap: wrap;
+  width:12vw;
+  height:20vh;
+  background-image: linear-gradient(red,red);
+  border-radius:0%;
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
 .rectangle-2{
-	width:12vw;
-	height:20vh;
-	background-image: linear-gradient(black,black);
-	border-radius:0%;
-	display: flex;
-	flex-wrap: wrap;
+  width:12vw;
+  height:20vh;
+  background-image: linear-gradient(black,black);
+  border-radius:0%;
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
 .rectangle-3{
-	width:12vw;
-	height:20vh;
-	background-image: linear-gradient(aquamarine,aquamarine);
-	border-radius:0%;
-	display: flex;
-	flex-wrap: wrap;
+  width:12vw;
+  height:20vh;
+  background-image: linear-gradient(aquamarine,aquamarine);
+  border-radius:0%;
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
 .rectangle-4{
-	width:12vw;
-	height:20vh;
-	background-image: linear-gradient(deeppink, deeppink);
-	border-radius:0%;
-	display: flex;
-	flex-wrap: wrap;
+  width:12vw;
+  height:20vh;
+  background-image: linear-gradient(deeppink, deeppink);
+  border-radius:0%;
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
 .rectangle-5{
-	width:12vw;
-	height:20vh;
-	background-image: linear-gradient(yellow,yellow);
-	border-radius:0%;
-	display: flex;
-	flex-wrap: wrap;
+  width:12vw;
+  height:20vh;
+  background-image: linear-gradient(yellow,yellow);
+  border-radius:0%;
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
 .rectangle-6{
-	width:12vw;
-	height:20vh;
-	background-image: linear-gradient(blueviolet,blueviolet);
-	border-radius:0%;
-	display: flex;
-	flex-wrap: wrap;
+  width:12vw;
+  height:20vh;
+  background-image: linear-gradient(blueviolet,blueviolet);
+  border-radius:0%;
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
 .rectangle-7{
-	width:12vw;
-	height:20vh;
-	background-image: linear-gradient(deepskyblue,deepskyblue);
-	border-radius:0%;
-	display: flex;
-	flex-wrap: wrap;
+  width:12vw;
+  height:20vh;
+  background-image: linear-gradient(deepskyblue,deepskyblue);
+  border-radius:0%;
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
 .rectangle-8{
-	width:12vw;
-	height:20vh;
-	background-image: linear-gradient(darkorange,darkorange);
-	border-radius:0%;
-	display: flex;
-	flex-wrap: wrap;
+  width:12vw;
+  height:20vh;
+  background-image: linear-gradient(darkorange,darkorange);
+  border-radius:0%;
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
 .chip-container{
-	width:100vw;
-	height:100vh;
-	display:flex;
-	align-items:center;
-	justify-content:center;
+  width:100vw;
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 
 }
 
 .chip-text{
-	color:gray;
-	border:1px solid gray;
-	font-size:5vw;
+  color:gray;
+  border:1px solid gray;
+  font-size:5vw;
 
 }
 
 .chip{
 
-	width:60vh;
-	height:60vh;
-	display:flex;
-	align-items:center;
-	justify-content:center;
+  width:60vh;
+  height:60vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
     border:1px solid gray;
     padding:5vh;
     background-color: black;
 }
 
-.mailbarcode {
-	width:100vw;
-	height:100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+/*wifi-2*/
+.wifi-2 img {
+
+  width: 50vw;
+  height:50vh;
+  margin-top: 20%;
+  margin-left: 25%;
+  display: inline-block;
+  animation-name:spinUG;
+  animation-duration:10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
-.gray {
-	background-color: gray;
-}
-
-.barcode {
-	width: 200vw;
-	margin: auto;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-}
-
-.barcode img {
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-}
-
-.scan {
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	z-index:-1;
-}
-
-.scan .barcode {
-	justify-content: flex-start;
-}
-
-.scanbox {
-	width: 100%;
-	height: 100%;
-	background-color: black;
-
-
-/*barcode animation effect*/
-	animation-name: scaner;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-  	animation-direction: alternate;
-}
-
-@keyframes scaner {
+@keyframes spinUG {
   
-  0% {
-    width:0px;
+  from {
+    transform:rotate(0deg);
   }
   
-  100% {
-    width:100vw;
+  to {
+   transform:rotate(360deg);
   }
   
   
 }
+
+
 
 .blocks-rgb {
-	perspective: 500px;	
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	backface-visibility: visible;
+  perspective: 500px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backface-visibility: visible;
 }
 
 /*wifi-1*/
 .square {
-	backface-visibility: visible;
-	width: 500px;
-	height: 500px;
+  backface-visibility: visible;
+  width: 500px;
+  height: 500px;
   text-align: center;
   margin-top: 260px;
-  margin-left: 270px;
-	background: transparent;
-	font-size: 200px;
-	transform: rotateY(45deg);
-	animation: rotateAnimation 1.5s linear infinite;
+  margin-left: 250px;
+  background: transparent;
+  font-size: 200px;
+  transform: rotateY(45deg);
+  animation: rotateAnimation 1.5s linear infinite;
 }
 
 @keyframes rotateAnimation {
-	from {transform: rotateY(0deg);}
-	to {transform: rotateY(360deg);}
+  from {transform: rotateY(0deg);}
+  to {transform: rotateY(360deg);}
 }
 
 
-/*uber*/
+/*uber-1*/
 .outline-black {
   font-size: 200px;
   color:transparent;
   -webkit-text-stroke: 2px black;
   position: fixed;
   z-index:1;
-  margin-left: 300px;
+  margin-left: 280px;
   margin-top: 250px;
   display: flex;
   flex-wrap: wrap;
@@ -731,17 +861,17 @@ animation: myki 1s infinite linear alternate;
 }
 
 .cloud-pattern{
-	width:100vw;
-	height: 100vh;
-	display: flex;
-	flex-wrap: wrap;
-	background-image: linear-gradient(black,black)
+  width:100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: linear-gradient(black,black)
 }
 
 .wifi-3 {
   width: 100px;
   height:180px;
-  margin-left:170px;
+  margin-left:120px;
   margin-top: 400px;
   background-color: white;
   border-radius:0%;
@@ -874,22 +1004,3 @@ animation: myki 1s infinite linear alternate;
   }
   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
