@@ -1,0 +1,37 @@
+body {
+	font-family: avenir next,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:black;
+}
+
+.title{
+	font-size: 55px;
+	text-align: center;
+	display: flex;
+	line-height: 10vh;
+	margin-top: 18vh;
+	margin-bottom: 18vh;
+	padding: 10vh;
+}
+.project{
+	font-size: 20px;
+	padding: 1vw;
+	font-family: social;
+	line-height: 2vh;
+    position: relative;
+    text-align: center;
+}
+
+.project img{
+ width: 50vw;
+ height: 50vh;
+}
+
+.text {
+ padding: 5vw 20vh;
+ font-size: 20px;
+ line-height: 4vh;
+}
